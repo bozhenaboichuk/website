@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <meta name='viewport' content='width=device-width,initial-scale=1'/>
+  <title>penpen.drip</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+ <body>
+    <header  class="u-header" >
+              <!-- Navigation -->
+                <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#"><a href="/"><img src="D:/навчання 3 курс 1 семестр/веб сайти для бізнесу/images/logo.png" class="logo"></a></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Магазин
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Брюки, штани</a>
+                              <a class="dropdown-item" href="#">Вітровки, жилетки</a>
+                              <a class="dropdown-item" href="#">Сорочки</a>
+                              <a class="dropdown-item" href="#">Кросівки і кеди</a>
+                              <a class="dropdown-item" href="#">Розпродаж</a>
+                            </div>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Контакти</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Про нас</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+      </header>
+      
+      <div class="container text-center">
+        <h1 class="h3 mt-5 mb-1">Bootstrap 4 - Carousel (карусель)</h1>
+        <h2 class="lead mt-0 mb-5">с элементами управления</h2>
+    
+    
+        <div id="carousel" class="carousel slide d-inline-block" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="D:/навчання 3 курс 1 семестр/веб сайти для бізнесу/images/photo_shoes1.jpg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="D:/навчання 3 курс 1 семестр/веб сайти для бізнесу/images/photo_shoes2.jpg" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="D:/навчання 3 курс 1 семестр/веб сайти для бізнесу/images/photo_shoes3.jpg" alt="...">
+                </div>
+            </div>
+            <!-- Элементы управления -->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Предыдущий</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Следующий</span>
+            </a>
+        </div>
+    
+    </div>
+
+    <footer>
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 item text">
+                            <h3>Company Name</h3>
+                            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                        </div>
+                        <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    </div>
+                    <p class="copyright">PenPen.Drip © 2021</p>
+                </div>
+            </footer>
+        </div>
+    </footer>
+   
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ </body>
+</html>
