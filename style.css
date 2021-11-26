@@ -1,12 +1,15 @@
 body {
 	text-align: center;
-	background: #e0e0e0;
+	background: #ffffff;
 	width: auto;
 }
 
 a {
 	text-decoration: none;
 }
+.selector-for-some-widget {
+	box-sizing: content-box;
+  }
 /*---------- menu --------------------*/
 .logo{
 	height: 80px;
@@ -19,8 +22,13 @@ a {
   }
 
 .img-fluid{
-	height: 300px;
+	height: 400px;
 	width: 400px;
+}
+.carousel-item p{
+	font-family: Impact;
+	font-size: 17px;
+	padding-top: 10px;
 }
 
 .footer-dark {
@@ -112,4 +120,7 @@ a {
 	font-size:13px;
 	margin-bottom:0;
   }
-  
+
+  .position-relative{
+	  background-image: url(images/banner.jpg);
+  }
