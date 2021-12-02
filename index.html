@@ -7,15 +7,14 @@
    <!-- Bootstrap CSS (jsDelivr CDN) -->
     <!-- Bootstrap CSS (Cloudflare CDN) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer">
- 
   <link rel="stylesheet" type="text/css" href="style.css"/>
- 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 </head>
  <body>
     <header  class="u-header" >
               <!-- Navigation -->
                 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-                    <a class="navbar-brand"><a href="shop.html"><img src="images/logo.png" class="logo"></a></a>
+                    <a class="navbar-brand"><a href="index.html"><img src="images/logo.png" class="logo"></a></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -27,25 +26,22 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                               <a class="dropdown-item" href="page_1.html">Брюки, штани</a>
-                              <a class="dropdown-item" href="#">Вітровки, жилетки</a>
-                              <a class="dropdown-item" href="#">Сорочки</a>
-                              <a class="dropdown-item" href="#">Кросівки і кеди</a>
-                              <a class="dropdown-item" href="#">Розпродаж</a>
+                              <a class="dropdown-item" href="page_2.html">Вітровки, cорочки</a>
+                              <a class="dropdown-item" href="page_3.html">Кросівки і кеди</a>
                             </div>
                           </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Контакти</a>
+                          <a class="nav-link" href="#name">Контакти</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Про нас</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Кошик</a>
+                          <a class="nav-link" href="buy.html">Кошик</a>
                         </li>
                       </ul>
                     </div>
                   </nav>
       </header>
+      
+
       
       <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
         <div class="col-md-5 p-lg-5 mx-auto my-5">
@@ -56,6 +52,46 @@
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
       </div>
+
+      
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">В наявності</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('images/longsliv-2-sht.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Сорочки, вітровки</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <ul class="d-flex list-unstyled mt-auto">
+                </div>
+                <a class="btn btn-secondary stretched-link" href="page_2.html">Подивитись</a>
+              </div>
+            </div>
+
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('images/dzhinsy-strejch-regular-fit-straight.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Брюки</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <ul class="d-flex list-unstyled mt-auto">
+                </div>
+                <a class="btn btn-secondary stretched-link" href="page_1.html">Подивитись</a>
+              </div>
+            </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('images/botinki-trekkingovye (1).jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3  text-dark text-dark-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Взуття</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+            </div>
+                <a class="btn btn-secondary stretched-link" href="page_3.html">Подивитись</a>
+          </div>
+        </div>
+      </div>
+    </div>
       
       <div class="container text-center">
         <h1 class="h3 mt-5 mb-1">Новинки</h1>
@@ -63,19 +99,19 @@
         <div id="carousel" class="carousel slide d-inline-block" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="img-fluid" src="images/photo_shoes1.jpg" alt="...">
-                    <h4>Кеди Nike Blazer mid</h4>
-                    <p>Ціна: 500 грн</p>
+                    <img class="img-fluid" src="images/rubashka-flanelevaya.jpg" alt="...">
+                    <h4>Сорочка фланелева</h4>
+                    <p>Ціна: 750 грн</p>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="images/photo_jeans5.jpg" alt="...">
-                    <h4>Штани Nike</h4>
-                    <p>Ціна: 250 грн</p>
+                    <img class="img-fluid" src="images/bryuki-so-svetootrazhatelyami.jpg" alt="...">
+                    <h4>Штани з лампасами</h4>
+                    <p>Ціна: 650 грн</p>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="images/photo_fjallraven1.jpg" alt="...">
-                    <h4>Сорочка fjallraven</h4>
-                    <p>Ціна: 400 грн</p>
+                    <img class="img-fluid" src="images/krossovki-ot-kappa.jpg" alt="...">
+                    <h4>Кросівки від Kappa</h4>
+                    <p>Ціна: 899 грн</p>
                 </div>
             </div>
             <!-- Элементы управления -->
@@ -91,33 +127,20 @@
     
     </div>
 
+
+  
+  
     <footer>
         <div class="footer-dark bg-dark">
             <footer>
-                <div class="container">
-                    <div class="row">
-                      <div class="col-sm-6 col-md-3 item">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
-                        </ul>
-                    </div>
-                        <div class="col-sm-6 col-md-3 item">
-                            <h3>About</h3>
-                            <ul>
-                                <li><a href="#">Company</a></li>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Careers</a></li>
-                            </ul>
+              <a name="name"><div class="container "></a>
+                    <!-- <div class="row"> -->
+                        <div class="col-md-12 item text">
+                            <h3>PenPen.Drip</h3>
+                            <p>Відкрий широку гаму чоловічого одягу разом з PenPen.Drip, в якому виглядатимеш однаково стильно як кожен день, так і на роботі або на важливих зустрічах. Одяг є справжньою візиткою кожного з нас. Одягни елегантну сорочку, штани гарного пошиття і підкори жіночі серця.</p>
                         </div>
-                        <div class="col-md-6 item text">
-                            <h3>Company Name</h3>
-                            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                        </div>
-                        <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-                    </div>
+                        <div class="col item social"><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a><a href="https://uk-ua.facebook.com/"><i class="bi bi-facebook"></i></a><a href="https://twitter.com/?lang=uk"><i class="bi bi-twitter"></i></a><a href="https://web.telegram.org/"><i class="bi bi-telegram"></i></a></div>
+                    <!-- </div> -->
                     <p class="copyright">PenPen.Drip © 2021</p>
                 </div>
             </footer>

@@ -22,8 +22,8 @@ a {
   }
 
 .img-fluid{
-	height: 400px;
-	width: 400px;
+	height: 550px;
+	width: 460px;
 }
 .carousel-item p{
 	font-family: Impact;
@@ -124,3 +124,12 @@ a {
   .position-relative{
 	  background-image: url(images/banner.jpg);
   }
+.text-muted p{
+	text-align: center;
+}
+
+.container_log{
+	margin-top:80px ;
+	margin-left:350px ;
+	height:390px;
+}
